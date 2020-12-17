@@ -9,7 +9,8 @@
   "scripts": {
     "test": "npx jest --coverage",
     "build": "npx webpack --mode development",
-    "demo": "npx webpack-dev-server --config webpack.config.js"
+    "demo": "npx webpack-dev-server --config webpack.config.js",
+    "jsdoc": "npx jsdoc -c jsdoc.json "
   },
   "repository": {
     "type": "git",

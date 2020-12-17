@@ -2,7 +2,7 @@
  * @classdesc 人を表すクラス。
  *
  */
-export default class Person {
+class Person {
   /**
    * Personコンストラクタ
    *
@@ -21,3 +21,5 @@ export default class Person {
     return `Hello, I'm ${this._name} !`;
   }
 }
+
+module.exports = Person;
