@@ -6,7 +6,7 @@ describe("profile", () => {
     jiro = new Person("Jiro");
   });
 
-  test("name is Taro", () => {
+  test("name is Jiro", () => {
     expect(jiro.hello()).toBe("Hello, I'm Jiro !");
   });
 });
