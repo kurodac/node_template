@@ -1,3 +1,3 @@
 module.exports = {
-  coveragePathIgnorePatterns: ["src/index.js"],
+  coveragePathIgnorePatterns: ['src/index.js'],
 };

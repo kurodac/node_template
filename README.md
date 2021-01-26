@@ -18,10 +18,11 @@ node 開発用のテンプレート
     npm run build
 
     # テスト
-    npm run test
+    npm test
 
-    # デモ
-    npm run demo
+    # Webサーバー
+    npm start
+    npm run start:prod # プロダクション環境
 
     # JSDOC再作成
     npm run jsdoc
@@ -49,9 +50,6 @@ node 開発用のテンプレート
 Returns **[string][4]** あいさつ文
 
 [1]: #person
-
 [2]: #parameters
-
 [3]: #hello
-
 [4]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String

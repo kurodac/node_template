@@ -2,6 +2,7 @@
   "recommendations": [
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
-    "ms-ceintl.vscode-language-pack-ja"
+    "ms-ceintl.vscode-language-pack-ja",
+    "ms-vscode-remote.remote-containers"
   ]
 }

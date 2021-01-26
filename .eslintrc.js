@@ -5,15 +5,15 @@ module.exports = {
     es6: true,
     jest: true,
   },
-  plugins: ["jsdoc", "jest", "node"],
-  extends: ["eslint:recommended", "prettier", "plugin:jsdoc/recommended"],
+  plugins: ['jsdoc', 'jest', 'node'],
+  extends: ['airbnb-base', 'prettier', 'plugin:jsdoc/recommended'],
   parserOptions: {
-    sourceType: "module",
+    sourceType: 'module',
     ecmaVersion: 2017,
   },
   rules: {
-    "jsdoc/require-jsdoc": [
-      "error",
+    'jsdoc/require-jsdoc': [
+      'error',
       {
         publicOnly: true,
         require: {
@@ -24,7 +24,7 @@ module.exports = {
         checkConstructors: true,
       },
     ],
-    "jsdoc/require-param-type": 0,
-    "jsdoc/require-returns": 0,
+    'jsdoc/require-param-type': 0,
+    'jsdoc/require-returns': 0,
   },
 };

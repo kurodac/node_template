@@ -1,12 +1,13 @@
-import Person from "../src/person";
-describe("profile", () => {
+import Person from '../src/person';
+
+describe('profile', () => {
   let jiro;
 
   beforeAll(() => {
-    jiro = new Person("Jiro");
+    jiro = new Person('Jiro');
   });
 
-  test("name is Jiro", () => {
+  test('name is Jiro', () => {
     expect(jiro.hello()).toBe("Hello, I'm Jiro !");
   });
 });

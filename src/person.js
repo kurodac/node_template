@@ -9,7 +9,7 @@ class Person {
    * @param {string} name 名前
    */
   constructor(name) {
-    this._name = name;
+    this.name = name;
   }
 
   /**
@@ -18,7 +18,7 @@ class Person {
    * @returns {string} あいさつ文
    */
   hello() {
-    return `Hello, I'm ${this._name} !`;
+    return `Hello, I'm ${this.name} !`;
   }
 }
 
